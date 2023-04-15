@@ -53,7 +53,7 @@ section {display: flex;}
     font-weight: 700;
     line-height: 0.9;
 }
-.hero div p {
+.hero p {
     letter-spacing: 2px;
     font-weight: 700;
     font-size: 21px;
@@ -76,7 +76,7 @@ section {display: flex;}
     line-height: 1;
     text-align: center;
 }
-.banner-text div:last-child{
+.banner-text > div:last-child{
     font-size: 16px;
     font-weight: 400;
     margin-top: 5px;
@@ -94,7 +94,7 @@ section {display: flex;}
     text-transform: uppercase;
     text-align: center;
 }
-.category-text> div {
+.category-text > div {
     font-size: 16px;
     font-weight: 200;
     color: #faa541;
