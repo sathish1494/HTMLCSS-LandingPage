@@ -37,18 +37,18 @@ section {display: flex;}
 .account a{ font-size: 14px;}
 .profile-pic{width: 60px; height: 60px;}
 .profile-pic img{border-radius: 100px; max-width: 100%;}
-.hero{
+.hero {
     height: 400px;
     background-size: cover;
     text-transform: uppercase;
-    background-position: center;
+    background-position: center center;
     background-image: url("../img/hero.jpg") ;
 }
-.hero div {
+.hero h1 {
     position:relative;
     left: -30px;
 }
-.hero div h1,h2{
+.hero h1, .hero h2 {
     font-size: 63px;
     font-weight: 700;
     line-height: 0.9;
