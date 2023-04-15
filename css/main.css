@@ -42,7 +42,7 @@ section {display: flex;}
     background-size: cover;
     text-transform: uppercase;
     background-position: center center;
-    background-image: url("../img/hero.jpg") ;
+    background-image: url('../img/hero.jpg') ;
 }
 .hero h1 {
     position:relative;
