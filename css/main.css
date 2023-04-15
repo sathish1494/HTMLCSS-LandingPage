@@ -143,7 +143,7 @@ section {display: flex;}
     color: #637f94;
     line-height: 1;
 }
-.full-banner-sidebar h4::after {
+.full-banner-sidebar h4:after {
     content: "";
     width: 100px;
     height: 1px;
@@ -159,9 +159,9 @@ section {display: flex;}
 .full-banner-sidebar > div:nth-of-type(2) {
     font-size : 25px;
     font-weight : 200;
-    line-height : 3;
+    letter-spacing : 3px;
 }
-.full-banner-sidebar .btn-default{
+.full-banner-sidebar .btn.btn-default{
     margin-top: 50px;
     text-transform: uppercase;
     letter-spacing: 1px;
